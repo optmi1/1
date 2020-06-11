@@ -1,0 +1,104 @@
+{
+    "contractName": "MyContract",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.6.8+commit.0bbfe453\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol\":{\"keccak256\":\"0x17f6854135010494f13f719a36d5124e7e855cd279b2ef11315f73d01dc24595\",\"urls\":[\"bzz-raw://84f54336c5d7aafce9c23646040b628f782ef20b70139466b61999a1d93d31b5\",\"dweb:/ipfs/QmXcFYm2EjXQVBLwVFssnr9sPHQR5ChuEwUVh62VMSUFb1\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201e0365620d909fb14e3caafd36c0c0741dc28811d1ce1514fb96b7289c13b44064736f6c63430006080033",
+    "deployedBytecode": "6080604052600080fdfea26469706673582212201e0365620d909fb14e3caafd36c0c0741dc28811d1ce1514fb96b7289c13b44064736f6c63430006080033",
+    "sourceMap": "27:59:0:-:0;;;54:29;5:9:-1;2:2;;;27:1;24;17:12;2:2;54:29:0;27:59;;;;;;",
+    "deployedSourceMap": "27:59:0:-:0;;;12:1:-1;9;2:12",
+    "sourcePath": "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.6.8+commit.0bbfe453"
+    },
+    "ast": {
+        "absolutePath": "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol",
+        "exportedSymbols": {
+            "MyContract": [
+                6
+            ]
+        },
+        "id": 7,
+        "license": null,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.6",
+                    ".8"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "documentation": null,
+                "fullyImplemented": true,
+                "id": 6,
+                "linearizedBaseContracts": [
+                    6
+                ],
+                "name": "MyContract",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 4,
+                            "nodeType": "Block",
+                            "src": "75:8:0",
+                            "statements": []
+                        },
+                        "documentation": null,
+                        "id": 5,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nodeType": "FunctionDefinition",
+                        "overrides": null,
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "65:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "75:0:0"
+                        },
+                        "scope": 6,
+                        "src": "54:29:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 7,
+                "src": "27:59:0"
+            }
+        ],
+        "src": "0:86:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}

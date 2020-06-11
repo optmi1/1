@@ -1,0 +1,140 @@
+{
+    "contracts": {
+        "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol": {
+            "MyContract": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201e0365620d909fb14e3caafd36c0c0741dc28811d1ce1514fb96b7289c13b44064736f6c63430006080033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x1E SUB PUSH6 0x620D909FB14E EXTCODECOPY 0xAA REVERT CALLDATASIZE 0xC0 0xC0 PUSH21 0x1DC28811D1CE1514FB96B7289C13B44064736F6C63 NUMBER STOP MOD ADDMOD STOP CALLER ",
+                        "sourceMap": "27:59:0:-:0;;;54:29;5:9:-1;2:2;;;27:1;24;17:12;2:2;54:29:0;27:59;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea26469706673582212201e0365620d909fb14e3caafd36c0c0741dc28811d1ce1514fb96b7289c13b44064736f6c63430006080033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x1E SUB PUSH6 0x620D909FB14E EXTCODECOPY 0xAA REVERT CALLDATASIZE 0xC0 0xC0 PUSH21 0x1DC28811D1CE1514FB96B7289C13B44064736F6C63 NUMBER STOP MOD ADDMOD STOP CALLER ",
+                        "sourceMap": "27:59:0:-:0;;;12:1:-1;9;2:12"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12600",
+                            "executionCost": "66",
+                            "totalCost": "12666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.6.8+commit.0bbfe453\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol\":{\"keccak256\":\"0x17f6854135010494f13f719a36d5124e7e855cd279b2ef11315f73d01dc24595\",\"urls\":[\"bzz-raw://84f54336c5d7aafce9c23646040b628f782ef20b70139466b61999a1d93d31b5\",\"dweb:/ipfs/QmXcFYm2EjXQVBLwVFssnr9sPHQR5ChuEwUVh62VMSUFb1\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "errors": [
+        {
+            "component": "general",
+            "formattedMessage": "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+            "severity": "warning",
+            "sourceLocation": {
+                "end": -1,
+                "file": "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol",
+                "start": -1
+            },
+            "type": "Warning"
+        }
+    ],
+    "sources": {
+        "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol": {
+            "ast": {
+                "absolutePath": "c:/xampp/htdocs/Optimus/Files/contracts/MyContract.sol",
+                "exportedSymbols": {
+                    "MyContract": [
+                        6
+                    ]
+                },
+                "id": 7,
+                "license": null,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.6",
+                            ".8"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 6,
+                        "linearizedBaseContracts": [
+                            6
+                        ],
+                        "name": "MyContract",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": {
+                                    "id": 4,
+                                    "nodeType": "Block",
+                                    "src": "75:8:0",
+                                    "statements": []
+                                },
+                                "documentation": null,
+                                "id": 5,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nodeType": "FunctionDefinition",
+                                "overrides": null,
+                                "parameters": {
+                                    "id": 2,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "65:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 3,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "75:0:0"
+                                },
+                                "scope": 6,
+                                "src": "54:29:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 7,
+                        "src": "27:59:0"
+                    }
+                ],
+                "src": "0:86:0"
+            },
+            "id": 0
+        }
+    }
+}
